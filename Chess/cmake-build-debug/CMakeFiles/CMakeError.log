@@ -1,0 +1,21 @@
+Performing C++ SOURCE FILE Test LDFLAG_FSANITIZE_UNDEFINED_OKAY failed with the following output:
+Change Dir: C:/Users/retro/OneDrive/Desktop/CS/cs211/Chess Project/Chess/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_815cf/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_815cf.dir\build.make CMakeFiles/cmTC_815cf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/retro/OneDrive/Desktop/CS/cs211/Chess Project/Chess/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_815cf.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe -DLDFLAG_FSANITIZE_UNDEFINED_OKAY  -fsanitize=undefined  -o CMakeFiles\cmTC_815cf.dir\src.cxx.obj -c "C:\Users\retro\OneDrive\Desktop\CS\cs211\Chess Project\Chess\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx"
+Linking CXX executable cmTC_815cf.exe
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_815cf.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_815cf.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_815cf.dir/objects.a @CMakeFiles\cmTC_815cf.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -fsanitize=undefined  -Wl,--whole-archive CMakeFiles\cmTC_815cf.dir/objects.a -Wl,--no-whole-archive -o cmTC_815cf.exe -Wl,--out-implib,libcmTC_815cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_815cf.dir\linklibs.rsp
+C:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lubsan
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_815cf.dir\build.make:100: cmTC_815cf.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/retro/OneDrive/Desktop/CS/cs211/Chess Project/Chess/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_815cf/fast] Error 2
+
+
+Source file was:
+int main(){}
