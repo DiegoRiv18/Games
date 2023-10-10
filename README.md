@@ -1,5 +1,5 @@
 # Games
-Game projects
+Academic Game Projects
 
 This is a collection of academic projects done in a variety of programs (Python, C++, C#)
 
