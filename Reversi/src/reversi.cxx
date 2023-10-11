@@ -16,8 +16,8 @@ main(int argc, char *argv[]) {
         int height;
         switch (argc) {
             case 1:
-                width = 4;
-                height = 4;
+                width = 8;
+                height = 8;
                 break;
             case 3:
                 width = std::stoi(argv[1]);
