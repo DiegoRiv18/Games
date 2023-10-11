@@ -1,0 +1,21 @@
+Performing C++ SOURCE FILE Test LDFLAG_FSANITIZE_UNDEFINED_OKAY failed with the following output:
+Change Dir: C:/Users/retro/OneDrive/Desktop/CS/cs211/hw05/Reversi/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5319d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5319d.dir\build.make CMakeFiles/cmTC_5319d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/retro/OneDrive/Desktop/CS/cs211/hw05/Reversi/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5319d.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe -DLDFLAG_FSANITIZE_UNDEFINED_OKAY  -fsanitize=undefined  -o CMakeFiles\cmTC_5319d.dir\src.cxx.obj -c C:\Users\retro\OneDrive\Desktop\CS\cs211\hw05\Reversi\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_5319d.exe
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5319d.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5319d.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_5319d.dir/objects.a @CMakeFiles\cmTC_5319d.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -fsanitize=undefined  -Wl,--whole-archive CMakeFiles\cmTC_5319d.dir/objects.a -Wl,--no-whole-archive -o cmTC_5319d.exe -Wl,--out-implib,libcmTC_5319d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5319d.dir\linklibs.rsp
+C:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lubsan
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5319d.dir\build.make:100: cmTC_5319d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/retro/OneDrive/Desktop/CS/cs211/hw05/Reversi/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_5319d/fast] Error 2
+
+
+Source file was:
+int main(){}
