@@ -6,3 +6,5 @@ This is a collection of academic projects done in a variety of programs (Python,
 First Game - First experience programming a game when I started my computer science path. Simple panda game with now objectives.
 
 Chess - First fully playable game in University.
+
+Reversi - Board game created in university as a homework
