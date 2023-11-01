@@ -9,4 +9,4 @@ Chess - First fully playable game in University without homework guiding. (Done 
 
 Reversi - Playable board game created in university as a homework assignment. (Done in CLion IDE)
 
-Breakout - Done in Unity without school help.
+Breakout - Done in Unity with C#
