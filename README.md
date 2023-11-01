@@ -8,3 +8,5 @@ First Game - First experience programming a game when I started my computer scie
 Chess - First fully playable game in University without homework guiding. (Done in CLion IDE)
 
 Reversi - Playable board game created in university as a homework assignment. (Done in CLion IDE)
+
+Breakout - Done in Unity without school help.
